@@ -8,6 +8,9 @@ body {
     box-sizing: border-box;
     background-color: #131313;
 }
+::placeholder {
+    color: #8f39d6;
+}
 ::selection {
     background:#7e32bd;
     color: #fff;
