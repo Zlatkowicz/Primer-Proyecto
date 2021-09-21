@@ -334,6 +334,7 @@ form:hover {
     border: .2rem solid #481B6C;
     background: #fff;
     transform: scale(1.080, 1.080);
+    background: linear-gradient(to left, #8f39d5, #ccbed8);
     border-radius: 2rem;
 }
 .footer-container { 
