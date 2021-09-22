@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
 body {
     box-sizing: border-box;
     background-color: #131313;
@@ -16,6 +19,8 @@ body {
     color: #fff;
 }
 .btn-primary {
+    animation: fadeInDown;
+    animation-duration: 3s;
     background-color: #131313;
     border: none;
     margin: 2rem 1rem;
@@ -40,11 +45,15 @@ body {
     font-size: 1.3rem;
 }
 .container-lg-parrafo {
+    animation: lightSpeedInLeft;
+    animation-duration: 3s;
     font-family: 'Inconsolata', monospace;
     margin: 0rem 1rem;
     position: absolute;
 }
 .container-lg h1 {
+    animation: fadeInRight;
+    animation-duration: 3s;
     font-family: 'Be Vietnam Pro', sans-serif;
     top: 4rem;
     font-size: 4rem;
@@ -54,20 +63,22 @@ body {
 .container-lg-p {
     color: #fff;
     opacity: .5;
-    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 1.5rem;
     top: 2rem;
     max-width: 35rem;
     position: relative;
-    font-size: 1.2rem;
     transition: .5s;
 }
 .container-lg-p:hover {
     opacity: 1;
 }
 .container-lg h1 {
+    font-family: 'Roboto Mono', monospace;
     transition: .7s;
 }
 .h1-secondary {
+    font-family: 'Raleway', sans-serif;
     opacity: .7;
 }
 .container-lg h1:hover {
@@ -195,7 +206,7 @@ hr {
 .trabajos-container {
     max-width: 50rem;
 }
-#trabajos-text {
+.trabajos-text {
     color: #fff;
     opacity: .7;
     text-align: left;
@@ -338,10 +349,12 @@ form:hover {
     border-radius: 2rem;
 }
 .footer-container { 
-    width: 100%;
     position: relative;
     height: 5rem;
+    box-sizing: border-box;
     text-align: center;
+    width: 99%;
+    margin: 0;
     top: 25rem;
     background: #151515;
     border-top: .1rem solid #481B6C;
@@ -350,4 +363,34 @@ form:hover {
     margin: 1.5rem 2rem;
     color: #fff;
     text-shadow: 0rem 0rem 1rem #8f39d6;
+}
+#about-me {
+    color: rgb(192, 1, 255);
+}
+#experienciatittle {
+    color: rgb(192, 1, 255);
+}
+.trabajos-tittle {
+    color: rgb(192, 1, 255);
+}
+#redes-sociales-tittle {
+    color: rgb(192, 1, 255);
+}
+.strong-01 {
+    color: #8f39d5;
+}
+.strong-02 {
+    color: #8f39d5ce;
+}
+.strong-03 {
+    color: #8f39d5a8;
+}
+.strong-04 {
+    color: #8f39d563;
+}
+.text {
+    font-family: 'Stick No Bills', sans-serif;
+}
+.font {
+    font-family: 'Gemunu Libre', sans-serif;
 }
