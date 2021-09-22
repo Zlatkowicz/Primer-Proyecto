@@ -71,7 +71,10 @@ body {
     position: relative;
     top: 6rem;
     padding: .5rem .8rem;
-    border-top: .1rem solid #481B6C;
+    border-radius: 1rem;
+background: linear-gradient(145deg, #50c4c6, #44a5a7);
+box-shadow:  6px 6px 18px #286162,
+             -6px -6px 18px #6effff;
     text-align: center;
     box-shadow: 0rem 0rem 1rem #7e32bd;
 }
@@ -214,9 +217,16 @@ body {
     max-width: 50rem;
 }
 .trabajos-text {
+    /* Glassmorphism */
+    background: rgba(87, 87, 87, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
     text-shadow: 0rem 0rem .2rem #000;
     color: #fff;
     opacity: 1;
+    padding: 1rem;
     margin: 10rem 2rem;
     font-size: 1.5rem;
     text-align: center;
@@ -233,39 +243,20 @@ body {
     text-decoration: none;
     color: #9c27fc;
 }
-/*
-.scp-image {
-    border-radius: 1rem;
-    float: right;
-    max-width: 30rem; 
-    height: 22rem;
-    transition: .5s;
-}
-.img-container-two {
-    border-radius: 1rem;
-    border: .2rem solid #fff;
-    max-width: 29rem;
-    height: 21rem;
-    z-index: -1;
-    transition: .4s;
-    left: 21rem;
-    top: 3rem;
-    position: relative;
-}
-.img-container-two:hover {
-    border: .2rem solid #9c27fc;
-    box-shadow: 0rem 0rem 4rem .2rem #7e32bd;
-    transform: translate(-.5rem, -.8rem);
-}
-*/
 .hr-04 {
     left: 19rem;
 }
 
 .redes-sociales-container {
+    border-radius: 50px;
+background: linear-gradient(145deg, #151515, #121212);
+box-shadow:  6px 6px 18px #0f0f0f,
+             -6px -6px 18px #191919;
+
     position: relative;
     top: 10rem;
     height: 30rem;
+    padding: 2rem;
 }
 .redes-sociales-secundary-container {
     position: absolute;
@@ -313,10 +304,13 @@ body {
     color: rgb(224, 95, 19);
 }
 form {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #151515, #121212);
+    box-shadow:  6px 6px 18px #0b0b0b,
+                -6px -6px 18px #1d1d1d;
     font-family: 'Share Tech Mono', monospace;;
     background: #161616;
     transition: .3s;
-    outline: .1rem solid #481B6C;
     position: relative;
     top: 15rem;
     margin: 2rem auto;
@@ -365,6 +359,10 @@ form:hover {
     border-radius: 2rem;
 }
 .footer-container { 
+    border-radius: 50px;
+    background: linear-gradient(145deg, #0e0e0e, #0c0c0c);
+    box-shadow:  6px 6px 18px #070707,
+                -6px -6px 18px #131313;
     position: relative;
     height: 5rem;
     box-sizing: border-box;
@@ -373,7 +371,6 @@ form:hover {
     margin: 0;
     top: 25rem;
     background: #151515;
-    border-top: .1rem solid #481B6C;
 }
 .container-content {
     margin: 1.5rem 2rem;
@@ -383,6 +380,10 @@ form:hover {
 #about-me {
     padding: 1rem 2rem;
     text-align: center;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, #1e8586, #197071);
+    box-shadow:  6px 6px 18px #0f4242,
+                -6px -6px 18px #29b6b8;
     color: #fff;
 }
 .sobre-mi-article {
@@ -420,6 +421,13 @@ form:hover {
     font-family: 'Gemunu Libre', sans-serif;
 }
 .text-1, .text-2, .text-3 {
+    /* Glassmorphism */
+    background: rgba(87, 87, 87, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    padding: 1rem;
     text-shadow: 0rem 0rem .1rem #000;
     margin: 2rem 1rem;
 }
