@@ -432,3 +432,6 @@ form:hover {
 .font {
     font-family: 'Gemunu Libre', sans-serif;
 }
+.text-1, .text-2, .text-3 {
+    margin: 2rem 1rem;
+}
