@@ -233,8 +233,9 @@ box-shadow:  6px 6px 18px #286162,
     transition: .5s;
 }
 .trabajos-text a {
+    text-shadow: 0rem 0rem 1rem #000;
     text-decoration: none;
-    color: #60268f;
+    color: #31ddc0;
 }
 #trabajos-text:hover {
     opacity: 1;
