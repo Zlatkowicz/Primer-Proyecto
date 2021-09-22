@@ -62,6 +62,7 @@ body {
 }
 .article-sobre-mi {
     border-bottom: .1rem solid #fff;
+    opacity: 1;
     background-image: url(https://i.pinimg.com/originals/34/06/cc/3406cce58dd15ad098d1ac333dcc3a10.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -118,29 +119,14 @@ body {
     color: #a946fa;
     opacity: .8;
 }
-hr {
-    left: 12rem;
-    bottom: 2rem;
-    position: relative;
-    width: 20rem;
-}
 .about-me-container {
     margin: 5rem 30rem;
     max-width: 40rem;
 }
 .about-me-container p {
     color: #fff;
-    opacity: .7;
-    transition: .5s;
-}
-.text-1:hover {
     opacity: 1;
-}
-.text-2:hover {
-    opacity: .6;
-}
-.text-3:hover {
-    opacity: .4;
+    transition: .5s;
 }
 .about-me-container a {
     text-decoration: none;
@@ -228,8 +214,9 @@ hr {
     max-width: 50rem;
 }
 .trabajos-text {
+    text-shadow: 0rem 0rem .2rem #000;
     color: #fff;
-    opacity: .7;
+    opacity: 1;
     margin: 10rem 2rem;
     font-size: 1.5rem;
     text-align: center;
@@ -433,5 +420,6 @@ form:hover {
     font-family: 'Gemunu Libre', sans-serif;
 }
 .text-1, .text-2, .text-3 {
+    text-shadow: 0rem 0rem .1rem #000;
     margin: 2rem 1rem;
 }
