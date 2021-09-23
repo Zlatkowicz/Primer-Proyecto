@@ -37,7 +37,7 @@
     <div class="container-lg">
         <p class="container-lg-parrafo"> Hola, mi nombre es  </p>
         <div class="container-lg">
-            <h1> Armando Zlatkowicz.</h1>
+            <h1 translate="no"> Armando Zlatkowicz.</h1>
             <h1 class="h1-secondary"> Construyo páginas web. </h1>
         </div>
         <div class="container-lg">
@@ -68,16 +68,6 @@
             </div>
         </article>
     </section>
-    <script type="text/javascript">
-        let progress = document.getElementById('progressbar'
-        );
-        let totalHeight = document.body.scrollHeight -
-         window.innerHeight;
-        window.onscroll = function() {
-            let progressHeight = (window.pageYOffset / totalHeight) * 100;
-            progress.style.height = progressHeight + "%";
-        }
-    </script>
     <!-- Sobre mi -->
     <!-- Conocimientos -->
     <section>
@@ -180,11 +170,21 @@
         <div class="container-text">
             <div class="row">
                 <div class="col-12">
-                    <p class="container-content"> Armando Zlatkowicz &copy 2021.</p>
+                    <p class="container-content" translate="no"> Armando Zlatkowicz &copy 2021.</p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer -->
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar'
+        );
+        let totalHeight = document.body.scrollHeight -
+         window.innerHeight;
+        window.onscroll = function() {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
 </body>
 </html>
