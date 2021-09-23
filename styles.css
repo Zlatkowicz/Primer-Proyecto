@@ -319,9 +319,6 @@ form {
     max-width: 50rem;
     height: 60rem;
 }
-form:hover {
-    box-shadow: 0rem 0rem 4rem .2rem #af5ef1d0;
-}
 .input-container h2 {
     padding: 2rem 2rem;
     font-size: 2rem;
