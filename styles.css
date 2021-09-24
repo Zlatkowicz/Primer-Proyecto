@@ -19,19 +19,37 @@ body {
     color: #fff;
 }
 .btn-primary {
+    /*
     animation: fadeInDown;
     animation-duration: 3s;
+    */
+    animation-name: rgb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
     background-color: #131313;
     border: none;
     margin: 2rem 1rem;
     padding: 1rem;
     transition: .5s;
 }
+@keyframes rgb {
+    0% {
+        box-shadow: 0rem 0rem 2rem .2rem #32c9cc;
+    }
+    20% {
+        box-shadow: 0rem 0rem 2rem .2rem #a200ff;
+    }
+    60% {
+        box-shadow: 0rem 0rem 2rem  .2rem #e70303;
+    }
+    100% {
+        box-shadow: 0rem 0rem 2rem  .2rem #f7f7f7;
+    }
+}
 .d-grid a {
     font-family: 'Ubuntu Mono', monospace;
-}
-.btn-primary:hover {
-    background-color: #481B6C;
 }
 .numbers {
     color: #60268f;
@@ -41,7 +59,7 @@ body {
 }
 .container-lg {
     margin-top: 6rem;
-    color: #8f39d6;
+    color: #8f39d6; 
     font-size: 1.3rem;
 }
 .container-lg-parrafo {
@@ -72,9 +90,9 @@ body {
     top: 6rem;
     padding: .5rem .8rem;
     border-radius: 1rem;
-background: linear-gradient(145deg, #50c4c6, #44a5a7);
-box-shadow:  6px 6px 18px #286162,
-            -6px -6px 18px #6effff;
+    background: linear-gradient(145deg, #50c4c6, #44a5a7);
+    box-shadow:  6px 6px 18px #286162,
+                -6px -6px 18px #6effff;
     text-align: center;
     box-shadow: 0rem 0rem 1rem #7e32bd;
 }
@@ -252,7 +270,7 @@ box-shadow:  6px 6px 18px #286162,
     border-radius: 50px;
 background: linear-gradient(145deg, #151515, #121212);
 box-shadow:  6px 6px 18px #0f0f0f,
-             -6px -6px 18px #191919;
+            -6px -6px 18px #191919;
 
     position: relative;
     top: 10rem;
