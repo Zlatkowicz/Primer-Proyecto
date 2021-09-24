@@ -1,0 +1,12 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 994bdea..96cc2db 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -21,6 +21,7 @@[m
+     <title> Portafolio </title>[m
+ </head>[m
+ <body>[m
+[32m+[m[32m    <!-- prueba de git -->[m
+     <div id="progressbar"></div>[m
+     <div id="scorllPath"></div>[m
+     <!-- Navegación -->[m
