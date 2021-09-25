@@ -23,16 +23,18 @@ body {
     animation: fadeInDown;
     animation-duration: 3s;
     */
-    animation-name: rgb;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
     background-color: #131313;
     border: none;
     margin: 2rem 1rem;
     padding: 1rem;
     transition: .5s;
+}
+.rgb {
+    animation-name: rgb;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 1s; 
 }
 @keyframes rgb {
     0% {
